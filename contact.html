@@ -19,9 +19,19 @@
         <!-- MAP -->
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6049.967711799859!2d-73.9953232!3d40.6963532!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a47df06b185%3A0xc889234bc07c42ee!2sBrooklyn+Heights%2C+Brooklyn%2C+NY+11201!5e0!3m2!1sen!2sus!4v1420229342745" width="425" height="350" frameborder="2" style="border:2"></iframe>
     
-    
-        <!-- CONTACT FORM -->
 
+        <!-- CONTACT FORM -->
+        <form action="#" method="post">
+            <label for="fullname">Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="your name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your email" required>
+            <label for "phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="your phone (optional)">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="1"></textarea>
+            <input type="submit" value="send">
+        </form>
 
         <script src="js/main.js"></script>
     </body>
